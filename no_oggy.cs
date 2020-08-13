@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class NoOggyChecker
 {
-  static void RemoveOggy(List<string> names..ToList())
+  static void RemoveOggy(List<string> names.ToList())
   {
     foreach (var name in names)
     {
