@@ -8,7 +8,8 @@ class NoOggyChecker
  
     for(int i=names.Count-1;i>-1;i--)
     {
-        if(names[i].StartsWith("oggy")) {
+        if(names[i].StartsWith("oggy")) 
+        {
             Console.WriteLine($"Need to remove name start with oggy are {names[i]}!");
             names.Remove(names[i]);
         }
